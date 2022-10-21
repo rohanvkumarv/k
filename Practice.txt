@@ -1,0 +1,358 @@
+Declarations and Initializations
+
+Q 1.1
+
+What would be the output of the following program?
+
+main()
+
+char far 's1, 's2; printf("%d %d", sizeof (s1), sizeof (s2));
+
+Q
+
+1.2
+
+9
+
+ar
+
+(gaivolto ad to fuqin bored blow W
+
+What would be the output of the following program?
+
+int x = 40; main() {
+
+int x = 20;
+
+printf("\n%d",x);
+
+}
+
+Q1.3
+
+What would be the output of the following program?
+
+_______
+
+main()
+
+int x = 40;
+
+dintx=20; Isitini brs anoitsislos
+
+printf("\n%d",x);
+
+} printf("%d",x);
+
+}
+
+Q
+
+quill od bloow W
+
+Is the following statement a declaration or a definition?
+
+1.4
+
+extern int i;
+
+Q
+
+1.5
+
+What would be the output of the following program?
+
+main() {
+
+extern int i;
+
+ganganwolfofont to opols oil ad blub w W
+
+i = 20; printf("%d", sizeof (i));
+
+A. 2
+
+ABCD B. 4
+
+C. D.
+
+Would vary from compiler to compiler Error, i undefined
+
+______
+Q
+
+1.6
+
+Is it true that a global variable may have several declarations, but only one definition? <Yes/No>
+
+Q 1.7
+
+bob be onnish a wid onThis W Is it true that a function may have several declarations, but only one definition? <Yes/No>
+
+Q1.8
+
+In the following program where is the variable a getting defined and where is it getting declared? T
+
+main()
+
+extem int a; printf("%d", a); and ami bolivib al monogr
+
+int a = 20;
+
+Q 1.9
+
+What would be the output of the following program?
+
+main()
+
+extern int a;
+
+printf("%d", a):
+
+} int a = 20;
+
+_______
+
+A. 20
+
+B. 0
+
+81 9
+
+C. Garbage value D. Error
+
+૨
+
+1.10
+
+What's the difference between a defintion and declaration of a variable? noitenland jus
+
+Q1.11
+
+8.1
+
+If the definition of an external variable occurs in the source file before its use in a particular function, then there is no need for an extern declaration in the function. <True/False>
+
+Q1.12
+
+Suppose a program is divided into three files fl, f2 and 3, and a variable is defined in the file fl but used in the files f2 and f3. In such a case would we need the external declaration for the variables in the files f2 and f3? <Yes/No>
+
+Q1.13
+
+mong wollot to stod blow W When we mention the prototype of a function are we defining the function or declaring it?
+
+Q1.14
+
+What's the difference between the following declarations
+
+______
+
+extern int fun(); int fun():
+
+Q1.15
+
+Why does the following program report a redeclaration error of function display()?
+
+main()
+
+display();
+
+void display()
+
+printf("\nCliffhanger");
+
+(set) nut
+
+dd fo
+
+Q1.16
+
+What would be the output of the following program?
+
+so=dd
+
+main()
+
+extern int fun (float):
+
+int a;
+
+a fun (3.14):
+
+printf("%d", a);
+
+int fun (aa) float aa;
+
+return((int) aa);
+
+
+________
+
+A. 3 3.14
+
+B.
+
+C. 0
+
+D. Error
+
+Q1.17
+
+Point out the error, if any, in the following program.
+
+struct emp
+
+char name[20]; int age;
+
+/* some more code may go here */
+
+fun (int aa)
+
+int bb; bb = aa aa; return (bb);
+
+1
+
+main()
+
+int a;
+
+a = fun (20);
+
+printf("%d", a);,
+
+
+________
+
+Q1.18
+
+If you are to share the variables or functions across several source files how would you ensure that all definitions and declarations are consistent?
+
+Q1.19
+
+How would you rectify the error in the following program?
+
+f(struct emp);
+
+any other prototypes may go here"/ struct emp
+
+char name[20]:
+
+int age;
+
+main()
+
+struct empe = {"Soicher", 34};
+
+f(e):
+
+f(struct empee)
+
+printf("%s %d", ee.name, ee.age):
+
+}
+
+THE gniwollow adi to toquota p
+
+Q1.20
+
+Global variables are available to all functions. Does there exist a mechanism by way of which I can make it available to some and not to others.
+
+________
+What do you mean by a translation unit?
+
+Q 122
+
+What would be the output of the following program?
+
+main( )
+int a[5] = { 2,3};
+printf ( "\n%d %d %d", a[2], a[3}, a[4});
+
+arbage values
+S03
+32 2
+
+00
+
+Ga
+Z
+3
+0
+
+Q 123
+
+What would be the output of the following program?
+
+main( )
+{
+struct emp
+{
+char name[20] ;
+int age :
+float sal ;
+hi
+struct emp.e = { "Tiger };
+printf ( "\n%d %f", e.age, e.sal ) ;
+
+ 
+
+________
+A. 0 0.000000
+
+B.
+
+Garbage values
+
+C. Error
+
+D. None of the above
+
+Q 1.24
+
+Some books suggest that the following definitions should be preceded by the word static. Is it correct? int a 1-(2, 3, 4, 12, 32):
+
+W
+
+struct emp e = { "sandy", 23];
+
+Q1.25
+
+Point out the error, if any, in the following program.bolt on t
+
+main()
+
+swin A
+
+A
+
+fun()
+
+printf("\nLoud and clear");
+
+Q1.26
+
+A
+
+aholay = 3bg hind foaru v lisi mb
+
+Point out the error, if any, in the following program.
+
+main()
+________
+union a
+
+int i;
+
+char ch[2]:
+
+union a z = 512;
+
+printf("%d %d", z.ch(0), z.ch[1]);
+
+Q1.27
+
+What do you mean by scope of a variable? What are the 4 different types of scopes that a variable can have?
+
+Q1.28
+
+What are the different types of linkages?
